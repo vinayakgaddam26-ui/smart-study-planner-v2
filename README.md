@@ -47,8 +47,19 @@ OR using Maven:
    mvn javafx:run
    ```
 
-## Screenshots
-*(Add your application screenshots here once running)*
+## 📸 Screenshots
 
----
-*Built as a portfolio project showcasing Object-Oriented design, JavaFX pure-code UI, and File IO.*
+### Dashboard
+![Dashboard](images/dashboard.png)
+
+### Add Subject
+![Add Subject](images/addsubject.png)
+
+### Add Topic
+![Add Topic](images/topic.png)
+
+### Study Planner
+![Study Planner](images/studyplanner.png)
+
+### AI Suggestions
+![AI Suggestions](images/aisugestions.png)
