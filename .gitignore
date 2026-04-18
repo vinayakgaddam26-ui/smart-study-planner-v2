@@ -1,0 +1,20 @@
+# Default ignored files
+/target/
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Mac
+.DS_Store
+
+# Data files generated during runtime
+data.json
