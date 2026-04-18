@@ -1,38 +1,50 @@
-# Smart Study Planner (Version 2)
+# 📚 Smart Study Planner (Version 2 - JavaFX GUI)
 
-A complete, modern desktop application built with Java and JavaFX for planning study sessions, keeping track of topics, and getting AI-driven study suggestions.
+## 📌 Project Overview
 
-## Features
-- **Dashboard**: Track overall progress and number of subjects.
-- **Subject Management**: Add subjects with customized difficulty levels (Low, Medium, High).
-- **Topic Management**: Add topics and estimate time required for completion.
-- **Study Planner**: A prioritized, color-coded study plan ensuring optimal focus.
-- **AI Suggestions**: Intelligent scheduling to know exactly what to study next.
-- **Local JSON Storage**: Automatically saves state across sessions using Gson.
+Smart Study Planner is a Java-based desktop application that helps students manage their study schedules efficiently.
 
-## Tech Stack
-- **Language**: Java 17
-- **UI Framework**: JavaFX (Pure Java, no FXML)
-- **Build Tool**: Maven
-- **File Storage**: JSON (Gson)
+This is **Version 2**, upgraded from a console-based application to a **JavaFX GUI application** with a modern user interface and improved user experience.
 
-## Folder Structure
-```text
+## ✨ Features
+
+- Add Subjects with difficulty levels
+- Add Topics under subjects
+- Generate Study Plan based on priority
+- AI-based Study Suggestions
+- Track study progress
+- User-friendly JavaFX GUI interface
+
+## 🛠️ Tech Stack
+
+- Java 17
+- JavaFX (GUI)
+- Maven (Build Tool)
+- Gson (JSON Storage)
+
+## 📁 Project Structure
+
 src/main/java/
-    ├── model/        (Core data objects)
-    ├── service/      (Business logic and AI suggestions)
-    ├── storage/      (File operations)
-    ├── ui/           (JavaFX components)
-    └── Main.java     (Entry point)
+├── model/        → Data models (Subject, Topic, StudySession)
+├── service/      → Business logic (Planner, AI suggestions)
+├── storage/      → File handling (JSON storage)
+├── ui/           → JavaFX UI components
+└── Main.java     → Entry point
 ```
 
-## How to Run
+## ▶️ How to Run
 
-1. Open the project folder in **IntelliJ IDEA**.
-2. Assuming Maven has downloaded all dependencies, right-click `Main.java` inside `src/main/java` and select **Run 'Main.main()'**.
-3. (Optional) Run from terminal using Maven:
-   ```bash
-   mvn clean javafx:run
+1. Clone the repository:
+   git clone https://github.com/vinayakgaddam26-ui/smart-study-planner-v2.git
+
+2. Open project in IntelliJ IDEA
+
+3. Make sure JDK 17 is set
+
+4. Run Main.java
+
+OR using Maven:
+   mvn javafx:run
    ```
 
 ## Screenshots
